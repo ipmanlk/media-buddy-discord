@@ -102,3 +102,13 @@ const msgHandler = (msg) => {
         });
     }
 };
+
+// when bot is added to a new server, update activity
+client.on("guildCreate", () => {
+    updateActivity();
+});
+
+// when bot is removed from a server, update activity
+client.on("guildDelete", () => {
+    updateActivity();
+});
