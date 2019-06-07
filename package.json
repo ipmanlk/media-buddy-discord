@@ -1,0 +1,19 @@
+{
+  "name": "media-buddy-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ipmanlk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "request": "^2.88.0",
+    "tinyurl": "^1.1.4",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {}
+}
